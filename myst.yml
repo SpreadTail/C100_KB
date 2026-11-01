@@ -1,15 +1,26 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   id: 4b40141a-e293-4dee-966b-33d576d1bef2
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github:
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  title: Networking 101
+  description: this is a networking course for the new commers
+  toc:
+    - file: intro.md
+    - title: part one
+      children:
+        - title: title one
+          file: footer.md
+        - title: title two
+          file: footer.md
+    - file: footer.md
+      title: footer
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  parts:
+    primary_sidebar_footer: sidebar_footer.md
+    footer: footer.md
+    # banner: banner.md
+  options:
+    favicon: moon.png
+    logo: moon.png
+    logo_text: C100 knowledge base
+    use_download_button: false
