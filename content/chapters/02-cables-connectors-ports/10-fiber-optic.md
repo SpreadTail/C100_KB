@@ -1,0 +1,7 @@
+## Fiber-Optic Connections
+
+**Fiber-optic** technology serves as a high-performance alternative to copper cabling for network data transmission. Rather than relying on electrical signals sent over metal wires, fiber-optic connections utilize light pulses transmitted along thin, flexible strands of glass. This medium allows data to travel over significantly greater distances and at much higher speeds than copper, largely because optical signals are immune to the electromagnetic interference that can degrade copper-based connections.
+
+A standard fiber-optic link requires two separate strands: one dedicated to transmitting data (Tx) and one dedicated to receiving data (Rx). This dual-cable approach establishes a full-duplex communication channel. Because standard fiber-optic transceivers generally operate by sending light through one fiber and receiving it through another, both strands are necessary to maintain simultaneous two-way communication.
+
+To connect these cables to networking hardware, such as switches and routers, an **SFP (Small Form-Factor Pluggable)** transceiver is utilized. The transceiver functions as an intermediary device, converting electrical signals from the network hardware into optical light pulses for the fiber cable, and converting incoming light pulses back into electrical signals. The SFP module is inserted into a standardized SFP port on the networking device, providing a modular and flexible way to integrate high-speed fiber connectivity into the network infrastructure.

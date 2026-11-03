@@ -1,0 +1,7 @@
+# What is a network?
+
+A computer network is a type of telecommunications network that connects multiple devices together. Instead of operating in isolation, these connected devices use cables or wireless signals to send and receive information. The primary purpose of building this network is to allow the devices to communicate and share resources.
+
+The individual devices that make up a network are known as nodes. A node is defined as any device that connects to the network and can transmit or receive data. Common examples of nodes include desktop computers, laptops, and mobile phones. As long as a device is attached to the network and capable of communicating with the rest of the system, it functions as a node.
+
+The main reason for connecting these nodes is to share a resource. A resource is anything that can be accessed or used over the network connection. This can be a physical piece of hardware, such as a single printer that accepts print jobs from multiple computers. A resource can also be digital, such as a shared folder of documents, a database, or a connection to the Internet. Sharing resources makes information easily accessible and eliminates the need to attach duplicate hardware to every individual device.

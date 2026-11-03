@@ -1,0 +1,5 @@
+# Firewalls
+
+A firewall is a security component designed to protect a network by monitoring and controlling the flow of data. Its primary function is to inspect all traffic that attempts to enter or exit the network, evaluating each data packet against a specific set of pre-configured security rules. Based on these established criteria, the firewall determines whether to allow the traffic to proceed or to deny it access. By blocking unauthorized or suspicious communication, the firewall acts as a protective barrier, preventing potential threats from reaching the internal network.
+
+> A specific implementation of this technology is the host-based firewall. Unlike network-wide firewalls that protect an entire group of connected devices, a host-based firewall is configured directly on an individual computer or server. This firewall examines the network traffic entering and exiting only that specific host device. By analyzing the traffic at the endpoint, it provides an additional layer of security, ensuring that even if a threat bypasses the primary network firewall, the individual device remains protected by its own internal security policies.

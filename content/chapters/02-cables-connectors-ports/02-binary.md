@@ -1,0 +1,7 @@
+# Binary: Bits and Bytes
+
+Computers operate using electronic signals that are fundamentally represented as either "on" or "off." To process this, they rely on the binary number system, which expresses all data using only two digits: 0 and 1. A **bit** (short for binary digit) is the most basic unit of information in this system. A single bit represents one of these two states, acting as the foundation for all digital data.
+
+Because a single bit can only represent a limited amount of information, bits are combined to handle more complex data. A **byte** is a standardized grouping of 8 bits. While bits are the atomic unit of digital computation, bytes are the standard unit used to measure data size, such as file capacity or memory storage.
+
+In the field of networking, we differentiate between data storage and data transmission. Network performance is measured by how many bits can be transmitted over a connection in a given timeframe. Consequently, network speeds are stated as **X bits per second (bps)**. Whether the connection is measured in kilobits, megabits, or gigabits per second, this value consistently reflects the raw throughput of the transmission path rather than the storage size of the data being moved.

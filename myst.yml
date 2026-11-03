@@ -2,17 +2,49 @@ version: 1
 project:
   id: 4b40141a-e293-4dee-966b-33d576d1bef2
   title: Networking 101
-  description: this is a networking course for the new commers
+  description: this is a networking course
   toc:
-    - file: intro.md
-    - title: part one
+    - title: Preface
+      file: content/preface.md
+    - title: Network Devices
       children:
-        - title: title one
-          file: footer.md
-        - title: title two
-          file: footer.md
-    - file: footer.md
-      title: footer
+        - title: What is a Network?
+          file: content/chapters/01-network-devices/02-network.md
+        - title: Type of Network Devices
+          children:
+          - title: Clients and Servers
+            file: content/chapters/01-network-devices/03-client-server.md
+          - title: Switches
+            file: content/chapters/01-network-devices/04-switch.md
+          - title: Routers
+            file: content/chapters/01-network-devices/05-router.md
+          - title: Firewalls
+            file: content/chapters/01-network-devices/06-firewall.md
+    - title: Cables, Connectors, and Ports
+      children:
+      - title: Network Standards
+        file: content/chapters/02-cables-connectors-ports/01-network-standards.md
+      - title: Binary
+        file: content/chapters/02-cables-connectors-ports/02-binary.md
+      - title: Copper UTP Connections
+        file: content/chapters/02-cables-connectors-ports/03-copper-utp-connection.md
+        children:
+        - title: IEEE 802.3 standards
+          file: content/chapters/02-cables-connectors-ports/04-ieee-ethernet-standards.md
+        - title: Cable Standards
+          file: content/chapters/02-cables-connectors-ports/05-cable-standards.md
+        - title: Straight-through and Crossover Cables
+          children:
+          - title: Straight-through Cable
+            file: content/chapters/02-cables-connectors-ports/06-straight-through.md
+          - title: Crossover Cable
+            file: content/chapters/02-cables-connectors-ports/07-crossover.md
+          - title: Network Devices Pinout
+            file: content/chapters/02-cables-connectors-ports/08-network-devices-pinout.md
+          - title: Auto MDI-X
+            file: content/chapters/02-cables-connectors-ports/09-auto-mdix.md
+      - title: Fiber Optic
+        file: content/chapters/02-cables-connectors-ports/10-fiber-optic.md
 site:
   template: book-theme
   parts:
@@ -20,7 +52,7 @@ site:
     footer: footer.md
     # banner: banner.md
   options:
-    favicon: moon.png
-    logo: moon.png
+    favicon: assets/moon.png
+    logo: assets/moon.png
     logo_text: C100 knowledge base
     use_download_button: false

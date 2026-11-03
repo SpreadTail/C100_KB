@@ -1,0 +1,7 @@
+# Copper UTP Connections
+
+Copper Unshielded Twisted Pair (UTP) cabling is the standard medium used for connectivity in most local area networks (LANs). While commonly referred to as an "Ethernet cable" because it is the primary physical medium for Ethernet protocols, its technical designation is defined by its internal structure and lack of shielding.
+
+The internal construction of a UTP cable consists of eight individual copper wires. To manage signal integrity, these wires are twisted together to form four distinct pairs. This twisting is essential for high-speed data transmission, it minimizes electromagnetic interference—also known as crosstalk—that can occur between the wires. By canceling out external noise, the twisted pairs ensure that digital signals remain stable as they travel across the network.
+
+To interface these cables with networking hardware, such as switches, routers, or network interface cards (NICs), a standardized connector is used. This connector is formally known as the RJ45 (Registered Jack 45). The RJ45 connector holds the eight individual wires in a fixed, specific arrangement. When the connector is inserted into a network port, these wires make electrical contact with the internal pins, establishing the circuit necessary to transmit and receive data.
