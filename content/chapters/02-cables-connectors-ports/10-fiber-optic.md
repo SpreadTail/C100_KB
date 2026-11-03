@@ -1,4 +1,4 @@
-## Fiber-Optic Connections
+# Fiber-Optic Connections
 
 **Fiber-optic** technology serves as a high-performance alternative to copper cabling for network data transmission. Rather than relying on electrical signals sent over metal wires, fiber-optic connections utilize light pulses transmitted along thin, flexible strands of glass. This medium allows data to travel over significantly greater distances and at much higher speeds than copper, largely because optical signals are immune to the electromagnetic interference that can degrade copper-based connections.
 
