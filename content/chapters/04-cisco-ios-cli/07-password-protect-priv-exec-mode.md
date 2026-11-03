@@ -1,0 +1,12 @@
+# Password Protecting Privileged EXEC Mode
+
+Securing access to Privileged EXEC mode is a fundamental step in network device security. Because this mode grants the ability to view sensitive configurations and modify operational settings, it must be protected against unauthorized access. If no password is configured, any user who can reach the device’s CLI can escalate their privileges, potentially compromising the entire network.
+
+### The `enable password` Command
+The basic method to secure this mode is the `enable password` command, which is executed within global configuration mode. Once configured, the device forces any user attempting to enter Privileged EXEC mode (via the `enable` command) to provide the set password. However, this method is fundamentally insecure for modern network environments because the password is stored in the device's configuration file in plain text. Any user with authorized read-only access to the configuration can see the password immediately.
+
+### Improving Security: Encryption
+To address the risk of clear-text passwords, administrators can use the `service password-encryption` command. This command applies a rudimentary obfuscation algorithm to all passwords stored in the configuration file. While this prevents the password from being read at a glance, it is not a strong security measure, the algorithm is widely known and easily reversible. Consequently, while it is better than leaving passwords in clear text, it does not provide robust protection.
+
+### Best Practice: The `enable secret` Command
+The industry-standard method for protecting Privileged EXEC mode is the `enable secret` command. Unlike the `enable password` command, `enable secret` utilizes a strong, one-way hashing algorithm (such as MD5 or SHA) to store the password. The clear-text version of the password is never saved to the configuration file; instead, the device stores only the irreversible hash. Even if an attacker gains access to the `running-config` or `startup-config` files, they cannot recover the original password. In all professional network deployments, the `enable secret` command should be used as the primary mechanism for securing administrative access.

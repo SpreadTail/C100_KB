@@ -1,0 +1,7 @@
+# Layer 1: Physical
+
+The **Physical layer** functions as the fundamental base of the networking stack. Its primary role is to define the physical, mechanical, and electrical requirements for transmitting data from one device to another. This layer manages the actual movement of information across the communication medium, ensuring that raw binary data can be effectively sent and received between nodes.
+
+At this level, network traffic is not treated as structured packets or frames, instead, it is handled as a stream of raw binary digits (bits). The Physical layer defines the specific methods used to encode these bits into transmittable signals. This includes determining the voltage levels for electrical signals in copper cabling, the intensity and frequency of light pulses in fiber-optic systems, and the radio frequency patterns used in wireless networks. 
+
+The specifications governed by this layer include the design of connectors (such as the RJ45 interface), the physical composition and maximum length of cabling, and the signaling protocols that define transmission speeds. Because every higher-level networking function relies on the successful delivery of bits, the Physical layer serves as the essential support for all network operations. Any failure or degradation at this level directly results in the failure of the entire network connection.

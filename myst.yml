@@ -45,6 +45,48 @@ project:
             file: content/chapters/02-cables-connectors-ports/09-auto-mdix.md
       - title: Fiber Optic
         file: content/chapters/02-cables-connectors-ports/10-fiber-optic.md
+    - title: The TCP/IP Networking Model
+      children:
+          - title: Protocol
+            file: content/chapters/03-tcp-ip/01-protocol.md
+          - title: Networking Models
+            file: content/chapters/03-tcp-ip/02-networking-models.md
+          - title: OSI Model
+            file: content/chapters/03-tcp-ip/03-osi-model.md
+          - title: TCP/IP Model
+            file: content/chapters/03-tcp-ip/04-tcp-ip.md
+          - title: Layers
+            children:
+            - title: Physical Layer
+              file: content/chapters/03-tcp-ip/05-physical-layer.md
+            - title: Data Link Layer
+              file: content/chapters/03-tcp-ip/06-data-link-layer.md
+            - title: Network Layer
+              file: content/chapters/03-tcp-ip/07-network-layer.md
+            - title: Transport Layer
+              file: content/chapters/03-tcp-ip/08-transport-layer.md
+            - title: Application Layer
+              file: content/chapters/03-tcp-ip/09-application-layer.md
+          - title: Data Encapsulation and De-encapsulation
+            file: content/chapters/03-tcp-ip/10-data-encapsulation-decapsulation.md
+    - title: Cisco IOS CLI
+      children:
+          - title: Shells
+            file: content/chapters/04-cisco-ios-cli/01-shells.md
+          - title: Console Port and Rollover Cable
+            file: content/chapters/04-cisco-ios-cli/02-console-rollover.md
+          - title: Cisco IOS CLI
+            children:
+            - title: EXEC Modes
+              file: content/chapters/04-cisco-ios-cli/03-exec-modes.md
+            - title: Global Configuration Mode
+              file: content/chapters/04-cisco-ios-cli/04-global-conf-mode.md
+            - title: Help and Command Efficiency
+              file: content/chapters/04-cisco-ios-cli/05-help-command.md
+            - title: IOS Configuration Files
+              file: content/chapters/04-cisco-ios-cli/06-ios-config-file.md
+            - title: Password Protecting Privileged EXEC Mode
+              file: content/chapters/04-cisco-ios-cli/07-password-protect-priv-exec-mode.md
 site:
   template: book-theme
   parts:

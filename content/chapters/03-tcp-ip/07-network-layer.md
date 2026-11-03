@@ -1,0 +1,7 @@
+# Layer 3: Network
+
+The **Network layer** is responsible for the logical routing and end-to-end delivery of data packets across distinct networks. While the Data Link layer focuses on moving data between two directly connected nodes (hop-to-hop), the Network layer manages the broader path from the source host to the destination host, even when those hosts are separated by multiple routers and disparate network segments. This layer is where network traffic is analyzed to determine the most efficient path for data to reach its final destination.
+
+To identify devices uniquely across a global network, this layer utilizes logical addressing, specifically **Internet Protocol (IP) addresses**. Unlike MAC addresses, which are permanently hardcoded into network hardware, IP addresses are logical. they are assigned to a device based on the network to which it is currently connected. This allows the network to route traffic effectively, as routers can use these logical addresses to make informed decisions about where to forward packets next.
+
+There are currently two primary versions of the Internet Protocol in use: IPv4 and IPv6. IPv4 uses a 32-bit addressing scheme, which provides a finite number of unique addresses. Due to the rapid expansion of the Internet and the increasing number of connected devices, the industry has transitioned toward IPv6, which uses a 128-bit addressing scheme. This transition drastically increases the available address space, ensuring that the network can continue to scale and support the growing demand for connectivity.

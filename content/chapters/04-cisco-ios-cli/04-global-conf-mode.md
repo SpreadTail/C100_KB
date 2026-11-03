@@ -1,0 +1,7 @@
+# Global Configuration Mode
+
+Global Configuration mode is the environment within the Cisco IOS where administrators perform modifications to the device's operational settings. While User EXEC and Privileged EXEC modes are restricted to monitoring and diagnostic tasks, this mode provides the necessary access to alter the device’s software configuration, including system parameters, security settings, and interface behaviors.
+
+To enter this mode, the user must first be in Privileged EXEC mode and issue the command `configure terminal`. Upon execution, the CLI prompt transitions to `Router(config)#`, signaling that the device is prepared to accept configuration commands.
+
+The term "global" refers to the scope of this mode, commands issued here typically affect the entire device, such as changing the device hostname or global security settings. It is important to note that changes implemented in this mode are applied immediately to the device’s **running configuration**, which resides in volatile RAM. Because these changes take effect instantly and will be lost if the device loses power or reloads, administrators must subsequently save the configuration to the non-volatile memory (NVRAM) to ensure settings persist after a reboot.
